@@ -1,0 +1,111 @@
+.profile1 {
+    background: hsl(0, 9%, 94%);
+    font-family: sans-serif;
+    color: hsl(0, 0%, 27%);
+    float: left;
+    margin-left: 300px;
+  }
+  
+  .profile1 .main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  
+  .profile1 .container {
+    margin: 10px;
+    float: left;
+    width: 400px;
+    background: white;
+    border-radius: 4px;
+    border: 1px solid hsl(0, 0%, 98%);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.18);
+    border-top: 3px solid #41ba90;
+    padding: 0;
+  }
+  
+  .profile1 .header {
+    /* padding: 20px; */
+    background-color: hsl(0, 0%, 98%);
+    text-align: center;
+    margin: 0;
+  }
+  
+  .profile1 .interests {
+    padding: 20px;
+    font-weight: 200;
+    text-align: justify;
+  }
+  
+  .profile1 .form {
+    padding: 20px;
+  }
+  
+  .profile1 .form .mainInfo {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .profile1 .form .mainInfo .nameLocation .location {
+    color: hsl(0, 0%, 85%);
+  }
+  
+  .profile1 .form .mainInfo .nameLocation .fullName p {
+    text-align: left;
+    padding-right: 10px;
+    font-weight: bold;
+  }
+  
+  .profile1 button {
+    background-color: #41ba90;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    margin-top: 15px;
+    width: 100%;
+  }
+  
+  .profile1 h1 {
+    font-size: 20px;
+  }
+  
+  .profile1 h2 {
+    font-size: 16px;
+    color: hsl(0, 0%, 42%);
+  }
+  
+  .profile1 img {
+    padding-left: 0;
+    margin-right: 15px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 4px solid white;
+    object-fit: cover;
+  }
+  
+  .profile1 input {
+    margin-top: 10px;
+    border: none;
+    background-color: hsl(0, 0%, 93%);
+    padding: 5px;
+    color: hsl(0, 0%, 42%);
+    border-radius: 4px;
+    width: 100%;
+  }
+  .pp1
+  {
+    float: left;
+    margin-top: 0%;
+    margin: 10px;
+    width: 400px;
+    background: white;
+    border-radius: 4px;
+    border: 1px solid hsl(0, 0%, 98%);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.18);
+    border-top: 3px solid #41ba90;
+    /* padding: 0; */
+  }
+  

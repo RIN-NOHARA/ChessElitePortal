@@ -1,0 +1,147 @@
+
+@import 'https://fonts.googleapis.com/css?family=Baloo+Paaji';
+
+.hi
+{
+  background: rgb(10,10,10);
+  /* margin-top: 0%; */
+
+}
+.homepagetextbody {
+  font-family: "Baloo Paaji", cursive;
+  background: #1e90ff;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100vh;
+  /* padding-left: 20px; */
+}
+
+.homepage-text-container {
+  max-width: 400px;
+  position: relative;
+  background-color: rgb(79, 74, 74);
+}
+
+.homepage-title,
+.homepage-subtitle {
+  font-size: 50px;
+  margin-left: 60px;
+  text-transform: uppercase;
+}
+
+.homepage-title span,
+.homepage-subtitle span {
+  width: 100%;
+  float: left;
+  color: #ffffff;
+  -webkit-clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 80%);
+  clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 80%);
+  transform: translateY(-50px);
+  opacity: 0;
+  animation-name: titleAnimation;
+  animation-timing-function: ease;
+  animation-duration: 3s;
+}
+
+.homepage-title span {
+  animation-delay: 0.6s;
+  -webkit-animation-fill-mode: forwards;
+}
+
+.homepage-title span:first-child {
+  animation-delay: 0.7s;
+}
+
+.homepage-title span:last-child {
+  color: #ffe221;
+  animation-delay: 0.5s;
+}
+
+.homepage-subtitle {
+  top: 0;
+  position: absolute;
+}
+.logo1 {
+    position: absolute;
+    top: 20px;
+    margin-left: 200px;
+    float: right;
+    max-width: 800px;
+    align-items: center;
+margin-left: 260px;
+       
+       
+    
+      
+  }
+.homepage-subtitle span {
+  animation-delay: 4.1s;
+  -webkit-animation-fill-mode: forwards;
+}
+
+.homepage-subtitle span:first-child {
+  animation-delay: 4.2s;
+}
+
+.homepage-subtitle span:last-child {
+  color: #ffe221;
+  animation-delay: 4s;
+}
+
+.permanent-text {
+  color: #ffe221 !important;
+}
+
+.use-chrome {
+  font-size: 10px;
+  color: #fff;
+  font-family: helvetica, arial;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  width: calc(100% - 40px);
+  text-align: left;
+}
+
+@keyframes titleAnimation {
+  0% {
+    transform: translateY(-50px);
+    opacity: 0;
+    -webkit-clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 80%);
+    clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 80%);
+  }
+  20% {
+    transform: translateY(0);
+    opacity: 1;
+    -webkit-clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 15%);
+    clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 15%);
+  }
+  80% {
+    transform: translateY(0);
+    opacity: 1;
+    -webkit-clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 15%);
+    clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 15%);
+  }
+  100% {
+    transform: translateY(50px);
+    opacity: 0;
+    -webkit-clip-path: polygon(100% 0, 100% 0%, 0 100%, 0 100%);
+    clip-path: polygon(100% 0, 100% 0%, 0 100%, 0 100%);
+  }
+}
+.academy-container {
+  text-align: center;
+  background: rgb(10,10,10);
+  color: #ffffff;
+  /* background: linear-gradient(194deg, rgba(10,10,10,1) 41%, rgba(128,172,172,1) 100%); */
+  
+  padding: 30px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+.academy-description {
+  font-size: 1.2rem;
+  color: #f8f3f3;
+  margin-bottom: 15px;
+}

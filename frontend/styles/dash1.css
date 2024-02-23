@@ -1,0 +1,275 @@
+@import "https://s3-us-west-2.amazonaws.com/s.cdpn.io/584938/dashboard.scss";
+
+.dash1-body {
+  background-color: #1b2431;
+  color: #202020;
+  font-family: "Montserrat", "Helvetica", "Open Sans", "Arial";
+  font-size: 13px;
+}
+
+.dash1-a:hover {
+  text-decoration: none;
+}
+
+.dash1-p,
+.dash1-figure {
+  margin: 0;
+  padding: 0;
+}
+
+.dash1-navbar {
+  background-color: #1b2431;
+}
+
+.dash1-sidebar {
+  background-color: #1b2431;
+  box-shadow: none;
+}
+.dash1-sidebar .dash1-nav-link {
+  border-left: 5px solid transparent;
+  color: #738297;
+  padding: 0.5rem 0.75rem;
+}
+.dash1-sidebar .dash1-nav-link:hover {
+  color: white;
+}
+.dash1-sidebar .dash1-nav-link.active {
+  border-left: 5px solid #738297;
+  color: white;
+}
+.dash1-sidebar .dash1-zmdi {
+  display: inline-block;
+  font-size: 1.35rem;
+  margin-right: 5px;
+  min-width: 25px;
+}
+
+.dash1-card-list {
+  width: 100%;
+}
+.dash1-card-list:before, .dash1-card-list:after {
+  content: " ";
+  display: table;
+}
+.dash1-card-list:after {
+  clear: both;
+}
+
+.dash1-card {
+  border-radius: 8px;
+  color: white;
+  padding: 10px;
+  position: relative;
+}
+.dash1-card .dash1-zmdi {
+  color: white;
+  font-size: 28px;
+  opacity: 0.3;
+  position: absolute;
+  right: 13px;
+  top: 13px;
+}
+.dash1-card .dash1-stat {
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  font-size: 8px;
+  margin-top: 25px;
+  padding: 10px 10px 0;
+  text-transform: uppercase;
+}
+.dash1-card .dash1-title {
+  display: inline-block;
+  font-size: 8px;
+  padding: 10px 10px 0;
+  text-transform: uppercase;
+}
+.dash1-card .dash1-value {
+  font-size: 28px;
+  padding: 0 10px;
+}
+.dash1-card.dash1-blue {
+  background-color: #2298F1;
+}
+.dash1-card.dash1-green {
+  background-color: #688257;
+}
+.dash1-card.dash1-orange {
+  background-color: #4b2735;
+}
+.dash1-card.dash1-red {
+  background-color: #a79a98;
+}
+
+.dash1-projects {
+  background-color: #4b6084;
+  border: 1px solid #313D4F;
+  overflow-x: auto;
+  width: 100%;
+}
+.dash1-projects-inner {
+  border-radius: 4px;
+}
+
+.dash1-projects-header {
+  color: white;
+  padding: 22px;
+}
+.dash1-projects-header .dash1-count,
+.dash1-projects-header .dash1-title {
+  display: inline-block;
+}
+.dash1-projects-header .dash1-count {
+  color: #738297;
+}
+.dash1-projects-header .dash1-zmdi {
+  cursor: pointer;
+  float: right;
+  font-size: 16px;
+  margin: 5px 0;
+}
+.dash1-projects-header .dash1-title {
+  font-size: 21px;
+}
+.dash1-projects-header .dash1-title + .dash1-count {
+  margin-left: 5px;
+}
+
+.dash1-projects-table {
+  background: #273142;
+  width: 100%;
+}
+.dash1-projects-table td,
+.dash1-projects-table th {
+  color: white;
+  padding: 10px 22px;
+  vertical-align: middle;
+}
+.dash1-projects-table td p {
+  font-size: 12px;
+}
+.dash1-projects-table td p:last-of-type {
+  color: #738297;
+  font-size: 11px;
+}
+.dash1-projects-table th {
+  background-color: #313D4F;
+}
+.dash1-projects-table tr:hover {
+  background-color: #303d52;
+}
+.dash1-projects-table tr:not(:last-of-type) {
+  border-bottom: 1px solid #313D4F;
+}
+.dash1-projects-table .dash1-member figure,
+.dash1-projects-table .dash1-member .dash1-member-info {
+  display: inline-block;
+  vertical-align: top;
+}
+.dash1-projects-table .dash1-member figure + .dash1-member-info {
+  margin-left: 7px;
+}
+.dash1-projects-table .dash1-member img {
+  border-radius: 50%;
+  height: 32px;
+  width: 32px;
+}
+.dash1-projects-table .dash1-status > form {
+  float: right;
+}
+.dash1-projects-table .dash1-status-text {
+  display: inline-block;
+  font-size: 12px;
+  margin: 11px 0;
+  padding-left: 20px;
+  position: relative;
+}
+.dash1-projects-table .dash1-status-text:before {
+  border: 3px solid;
+  border-radius: 50%;
+  content: "";
+  height: 14px;
+  left: 0;
+  position: absolute;
+  top: 1px;
+  width: 14px;
+}
+.dash1-projects-table .dash1-status-text.dash1-status-blue:before {
+  border-color: #1C93ED;
+}
+.dash1-projects-table .dash1-status-text.dash1-status-green:before {
+  border-color: #6a7264;
+}
+.dash1-projects-table .dash1-status-text.dash1-status-orange:before {
+  border-color: #DA932C;
+}
+.dash1-projects-table .dash1-status-text.dash1-status-red:before {
+  border-color: #7b6d6b;
+}
+
+.dash1-selectric {
+  background-color: transparent;
+  border-color: #313D4F;
+  border-radius: 4px;
+}
+.dash1-selectric .dash1-label {
+  color: #738297;
+  line-height: 34px;
+  margin-right: 10px;
+  text-align: left;
+}
+.dash1-selectric-wrapper {
+  float: right;
+  width: 150px;
+}
+
+.dash1-chart {
+  border-radius: 3px;
+  border: 1px solid #313D4F;
+  color: white;
+  padding: 10px;
+  position: relative;
+  text-align: center;
+}
+.dash1-chart canvas {
+  height: 400px;
+  margin: 20px 0;
+  width: 100%;
+}
+.dash1-chart .dash1-actions {
+  margin: 15px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.dash1-chart .dash1-actions span {
+  cursor: pointer;
+  display: inline-block;
+  font-size: 20px;
+  margin: 5px;
+  padding: 4px;
+}
+.dash1-chart .dash1-actions .dash1-btn-link {
+  color: white;
+}
+.dash1-chart .dash1-actions .dash1-btn-link i {
+  font-size: 1.75rem;
+}
+.dash1-chart .dash1-title {
+  font-size: 18px;
+  margin: 0;
+  padding: 15px 0 5px;
+}
+.dash1-chart .dash1-title + .dash1-tagline {
+  margin-top: 10px;
+}
+.dash1-chart .dash1-tagline {
+  font-size: 12px;
+}
+
+.dash1-danger-item {
+  border-left: 4px solid #A84D43;
+}
+
+.dash1-zmdi {
+  line-height: 1;
+  vertical-align: middle;
+}

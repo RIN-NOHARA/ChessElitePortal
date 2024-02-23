@@ -1,0 +1,82 @@
+.fetch-details-container {
+    margin: 20px;
+    background-image: url("https://static4.depositphotos.com/1000487/359/v/450/depositphotos_3597079-stock-illustration-vector-illustration-of-blue-bubbles.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fetch-details-title {
+    font-size: 1.5em;
+}
+
+.fetch-details-table {
+    width: 100%;
+    margin-left: 150px;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.fetch-details-table th, .fetch-details-table td {
+    border: 1px solid #2e0d0d;
+    padding: 8px;
+    text-align: left;
+}
+
+.fetch-details-table th {
+    background-color: #6c4848;
+}
+
+.fetch-details-error {
+    color: red;
+}
+.fetch-details-container {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #4a2020;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(184, 112, 112, 0.1);
+}
+
+.fetch-details-title {
+    font-size: 1.5em;
+}
+
+.fetch-details-table {
+    width: 80%; /* Reduce width */
+    margin-top: 10px;
+    border-collapse: collapse;
+    box-shadow: 0 4px 8px rgba(127, 58, 58, 0.1);
+}
+
+.fetch-details-table th, .fetch-details-table td {
+    border: 1px solid #7f2828;
+    padding: 12px;
+    text-align: left;
+}
+
+.fetch-details-table th {
+    background-color: #baecdb;
+}
+
+.fetch-details-table tr:nth-child(even) {
+    background-color: #95a5b1; /* Color for even rows */
+}
+
+.fetch-details-error {
+    color: red;
+}
+
+/* Animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.fetch-details-container {
+    animation: fadeIn 0.5s ease-in-out; /* Apply animation to the container */
+}
+

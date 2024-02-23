@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400&display=swap");
+
+.new-content-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* margin: 50px auto; */
+  height: 300%;
+  background: rgb(10,10,10);
+
+}
+
+/* Other styles... */
+
+.new-content-body {
+  background: rgb(2, 0, 36);
+  background: radial-gradient(
+    circle,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(226, 225, 230, 1) 84%,
+    rgba(255, 255, 255, 1) 100%,
+    rgba(0, 212, 255, 1) 100%,
+    rgba(255, 255, 255, 1) 100%
+  );
+}
+
+.new-content-app {
+  display: flex;
+  justify-content: center;
+  margin: 50px auto;
+  height: 100%;
+}
+
+.card__one {
+  /* Styles for card__one */
+}

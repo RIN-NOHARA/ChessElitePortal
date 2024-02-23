@@ -1,0 +1,55 @@
+/* Edit_Student.css */
+
+.hello {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .crud-forms {
+    width: 400px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f4f4f4;
+  }
+  
+  .crud-form-group {
+    margin-bottom: 15px;
+  }
+  
+  .crud-form input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  .crud-button {
+    padding: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .crud-button.primary {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .crud-button.warning {
+    background-color: #ffc107;
+    color: #000;
+  }
+  
+  .crud-button:hover {
+    opacity: 0.8;
+  }
+  
+  .crud-form-link {
+    text-align: center;
+    display: block;
+    margin-top: 10px;
+  }
+  

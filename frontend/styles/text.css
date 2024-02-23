@@ -1,0 +1,25 @@
+.tournament-heading {
+  color: #777;
+  text-decoration: none;
+  background-color: transparent;
+  text-transform: uppercase;
+}
+
+.tournament-heading-primary {
+  /* display: block; */
+  font-size: 5.0rem;
+  font-weight: 400;
+  letter-spacing: 35px;
+  animation: moveInLeft 1s ease-out;
+}
+
+.tournament-heading-secondary {
+  font-family: sans-serif;
+  /* display: block; */
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 31px;
+  color: rgb(160, 74, 117);
+  animation: moveInRight 1s ease-out;
+}

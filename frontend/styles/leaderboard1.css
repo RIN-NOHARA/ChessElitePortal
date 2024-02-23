@@ -1,0 +1,117 @@
+
+.leaderboard1-App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.leaderboard1-html,
+.leaderboard1-body  {
+  background: #f3f4f6;
+  scroll-behavior: smooth;
+}
+
+.leaderboard1 {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  font-size: 1rem;
+  line-height: 1.5;
+  background: #036550;
+}
+
+.leaderboard1-white {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  background: #fff;
+  border-top: 1px solid #e5e7eb;
+}
+
+.leaderboard1-header {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.small-font1 {
+  font-size: 1.5rem !important;
+}
+
+.smaller-font1 {
+  font-size: 1.1rem !important;
+  margin-top: 8px !important;
+}
+
+.leaderboard1-row-item {
+  display: flex;
+  flex-flow: row nowrap;
+  flex-grow: 1;
+  flex-basis: 0;
+  padding: 0.5em;
+  word-break: break-word;
+  font-size: 1.8rem;
+}
+
+.white1 {
+  color: #fff;
+}
+
+.one1 {
+  flex: 0.5 1 0;
+  min-width: 50px;
+  padding-right: 0 !important;
+}
+
+.two1 {
+  flex: 5 1 0;
+}
+
+.three1 {
+  flex: 0.8 1 0;
+  justify-content: right;
+  min-width: 70px;
+}
+
+.leaderboard1 {
+  padding: 20px;
+  background: #f3f4f6;
+}
+
+.header-title1 {
+  padding: 20px;
+  display: block;
+  position: relative;
+}
+
+@media only screen and (max-width: 600px) {
+  .leaderboard1 {
+    padding: 5px;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .small-font1 {
+    font-size: 1rem !important;
+  }
+
+  .smaller-font1 {
+    font-size: 0.75rem !important;
+    margin-top: 8px !important;
+  }
+
+  .leaderboard1-row-item {
+    font-size: 1rem;
+  }
+
+  .logo-gen1 {
+    width: 50px;
+  }
+}
+
+.logo-gen1 {
+  position: absolute;
+  right: 10px;
+  width: 4rem;
+  top: 12px;
+}

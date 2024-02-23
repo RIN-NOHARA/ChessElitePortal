@@ -1,0 +1,141 @@
+.hell
+{
+  background-image: url("../images/lead.jpg");
+  background-size: cover;
+}
+.leaderboard-App {
+    /* font-family: sans-serif; */
+    text-align: center;
+    /* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8XttkRwINEPXzPyctWKzYNdmTWlBKJcz-Cw&usqp=CAU"); */
+    margin-left: 20px;
+  }
+  
+  .leaderboard-html,
+  .leaderboard-body {
+    background: #faf5f5;
+    scroll-behavior: smooth;
+    /* font-size: 2px; */
+    margin-left: 20px;
+
+  }
+  
+  .leaderboard-table-lead {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    /* width: 540px; */
+    font-size: 1rem;
+    font-size: 2px;
+     margin-left: 200px;
+    line-height: 0.5;
+    background: #036550;
+  }
+  
+  .leaderboard-table-lead-white {
+    display: flex;
+    font-size: 2px;
+    margin-left: 200px;
+
+    /* width: 540px; */
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    background: #fff;
+  
+    border-top: 1px solid #e5e7eb;
+  }
+  
+  .leaderboard-table-header {
+    display: flex;
+    /* font-size: 2px; */
+
+    flex-flow: row nowrap;
+  }
+  
+  .leaderboard-small-font {
+    font-size: 1.5rem !important;
+  }
+  
+  .leaderboard-smaller-font {
+    font-size: 1.1rem !important;
+    margin-top: 8px !important;
+  }
+  
+  .leaderboard-table-row-item {
+    display: flex;
+    flex-flow: row nowrap;
+    flex-grow: 1;
+    /* color: aliceblue; */
+    flex-basis: 0;
+    padding: 0.7em;
+    word-break: break-word;
+    font-size: 1.8rem;
+  }
+  
+  .leaderboard-white {
+    color: #e7dfdf;
+  
+  }
+  
+  .leaderboard-one {
+    flex: 0.5 1 0;
+    min-width: 50px;
+    padding-right: 0 !important;
+  }
+  
+  .leaderboard-two {
+    flex: 5 1 0;
+  }
+  
+  .leaderboard-three {
+    flex: 0.8 1 0;
+    justify-content: right;
+    min-width: 70px;
+  }
+  
+  .leaderboard-leaderboard {
+    padding: 20px;
+    /* background: #f3f4f6; */
+    background-image: url("../images/lead.jpg");
+    background-size: cover;
+  }
+  
+  .leaderboard-header-title {
+    padding: 20px;
+    display: block;
+    position: relative;
+  }
+  
+  @media only screen and (max-width: 60px) {
+    .leaderboard-leaderboard {
+      padding: 5px;
+    }
+  }
+
+  @media only screen and (max-width: 100px) {
+    .leaderboard-small-font {
+      font-size: 1rem !important;
+    }
+  
+    .leaderboard-smaller-font {
+      font-size: 0.75rem !important;
+      margin-top: 8px !important;
+    }
+  
+    .leaderboard-table-row-item {
+      font-size: 2rem;
+    }
+  
+    .leaderboard-logo-gen {
+      width: 50px;
+    }
+  }
+  
+  .leaderboard-logo-gen {
+    position: absolute;
+    right: 10px;
+    width: 4rem;
+    top: 12px;
+  }
+  

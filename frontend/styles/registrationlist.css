@@ -1,0 +1,54 @@
+/* registrationStyles.css */
+.ke
+{
+    background-image: url("https://img.freepik.com/premium-photo/checkmate-chess-board-pattern-background-8k-wallpaper-hd_901075-919.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.registration-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    animation: registrationFadeIn 0.5s ease-out;
+  }
+  
+  @keyframes registrationFadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .registration-heading {
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .registration-table {
+    width: 100%;
+    border-collapse: collapse;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .registration-th, .registration-td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+  }
+  
+  .registration-th {
+    background-color: #f2f2f2;
+  }
+  
+  .registration-tr:hover {
+    background-color: #f5f5f5;
+    transition: background-color 0.3s ease;
+  }
+  

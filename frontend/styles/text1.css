@@ -1,0 +1,97 @@
+.text-effect {
+  overflow: hidden;
+  /* position: relative; */
+  filter: contrast(110%) brightness(190%);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.neon {
+  /* position: relative; */
+  background: black;
+  text-decoration: none;
+  color: transparent;
+  /* margin-left: 20px; */
+}
+
+.neon::before,
+.neon::after {
+  content: attr(data-text);
+  color: white;
+  margin-left: 400px;
+  filter: blur(0.02em);
+  position: absolute;
+  top: 0;
+  left: 200px;
+  pointer-events: none;
+}
+
+.neon::after {
+  mix-blend-mode: difference;
+}
+
+.gradient,
+.spotlight,
+.tournaments-section { 
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  pointer-events: none;
+  z-index: 10;
+}
+
+.gradient {
+  background: linear-gradient(45deg, red, blue);
+  mix-blend-mode: multiply;
+}
+
+.spotlight {
+  -webkit-animation: light 5s infinite linear;
+  animation: light 5s infinite linear;
+  background: radial-gradient(circle, rgb(90, 59, 59), transparent 25%) 0 0/25% 25%, radial-gradient(circle, white, black 25%) 50% 50%/12.5% 12.5%;
+  top: -100%;
+  left: -100%;
+  mix-blend-mode: color-dodge;
+}
+
+@-webkit-keyframes light {
+  100% {
+      transform: translate3d(50%, 50%, 0);
+  }
+}
+
+@keyframes light {
+  100% {
+      transform: translate3d(50%, 50%, 0);
+  }
+}
+
+.tournaments-section .neon { 
+  font: 700 90px "Lato", sans-serif;
+  text-transform: uppercase;
+  margin-left: 200px;
+  text-align: center;
+  text-decoration: none;
+  /* margin: 0; */
+}
+
+.tournaments-section .neon:focus {
+  outline: none;
+  /* border: 1px dotted white; */
+}
+
+.bodytournaments {
+
+  background: black;
+  
+  /* display: flex; */
+  /* min-height: 100vh; */
+  /* justify-content: center; */
+  /* align-content: center; */
+  /* align-items: center; */
+}

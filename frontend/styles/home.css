@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400&display=swap");
+
+.home-body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Source Sans Pro", sans-serif;
+  background: rgb(2, 0, 36);
+  background: radial-gradient(
+    circle,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(226, 225, 230, 1) 84%,
+    rgba(255, 255, 255, 1) 100%,
+    rgba(0, 212, 255, 1) 100%,
+    rgba(255, 255, 255, 1) 100%
+  );
+}
+
+.home-container {
+  display: flex;
+  justify-content: center;
+  margin: 50px auto;
+  height: 100%;
+}
+
+.home-card {
+  max-width: 300px;
+  max-height: 600px;
+  border-radius: 15px;
+  margin: 0px 20px;
+  cursor: pointer;
+  transform: scale(0.9);
+  transition: transform 150ms ease-in, box-shadow 0.2s linear;
+  background: white;
+  box-shadow: 10px 10px 5px -2px rgba(193, 32, 32, 0.75);
+  -webkit-box-shadow: 10px 10px 5px -2px rgba(34, 177, 177, 0.75);
+  -moz-box-shadow: 10px 10px 5px -2px rgba(201, 217, 208, 0.75);
+}
+
+.home-card:hover {
+  transform: scale(1);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.home-card__header {
+}
+
+.home-card__header img {
+  width: 100%;
+  margin-bottom: 20px;
+  border-radius: 15px 15px 0px 0px;
+}
+
+.home-card__body {
+  text-align: center;
+}
+
+.home-card__body span {
+  color: rgb(248, 51, 84);
+  font-weight: 600;
+}
+
+.home-card__body h1 {
+  padding: 0px 0px 20px 0px;
+}
+
+.home-card__body p {
+  color: gray;
+  padding: 0px 10px 30px 10px;
+}
+
+.home-card__footer {
+  border-radius: 0px 0px 15px 15px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px 0px;
+  text-align: center;
+  background-color: rgb(240, 54, 85);
+  color: white;
+}
+
+.home-card__Footer__first {
+}
+
+.home-card__Footer__second {
+}
+
+.home-card__Footer__third {
+}
+
+.home-card__Footer__first div p,
+.home-card__Footer__second div p,
+.home-card__Footer__third div p {
+  font-size: 20px;
+  font-weight: 1000;
+}
+
+.home-card__Footer__first label,
+.home-card__Footer__second label,
+.home-card__Footer__third label {
+  font-weight: 200;
+}

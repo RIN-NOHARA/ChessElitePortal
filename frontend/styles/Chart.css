@@ -1,0 +1,55 @@
+/* Assuming this is your Chart.css file */
+
+.kp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: aliceblue;
+}
+
+.admin-panel {
+  /* background-color: #f4f4f4; */
+  /* border: 1px solid #ccc; */
+  padding: 20px;
+  width: 80%;
+}
+
+.main-content {
+  display: flex;
+}
+
+.left-content {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.right-content {
+  flex: 1;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.grid-card {
+  /* background-color: #fff; */
+  padding: 10px;
+  /* border: 1px solid #ddd; */
+  border-radius: 5px;
+}
+
+.chart-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.pie-chart,
+.bar-chart {
+  margin-bottom: 20px;
+  /* width: 200px;
+  height: 200px;; */
+}
