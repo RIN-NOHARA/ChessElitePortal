@@ -1,0 +1,53 @@
+/* Header.css */
+
+#header1 {
+  display: flex;
+  align-items: center;
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+.logotext1 {
+  flex-grow: 1;
+  font-size: 20px;
+}
+
+.closemenu1 {
+  cursor: pointer;
+}
+
+.sidebar {
+  width: 200px;
+  height: 100vh;
+  background-color: #222;
+  position: fixed;
+  top: 0;
+  /* left: `${(props) => (props.collapsed ? "-200px" : "0")}; */
+  transition: left 0.3s ease-in-out;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.sidebar a {
+  text-decoration: none;
+  color: #fff;
+  margin-left: 10px;
+}
+
+.sidebar svg {
+  margin-right: 10px;
+}
+
+.collapsed .sidebar {
+  left: -200px;
+}
